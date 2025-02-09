@@ -1,7 +1,7 @@
 #!/bin/sh
 # Thanks to https://github.com/fearside/ProgressBar
 
-PATH=@coreutils@/bin
+PATH=@coreutils@/bin:@gawk@/bin
 function ProgressBar {
     let _progress=(${1}*100/${2}*100)/100
     let _done=(${_progress}*${bar_length})/10
