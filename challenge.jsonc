@@ -16,7 +16,7 @@
         {
             "type": "os",
             "format": "{3}",
-            "key": "󰣇 ",
+            "key": " ",
             "keyColor": "bright_blue"
         },
         
@@ -54,7 +54,7 @@
 
         {
             "type": "command",
-            "shell": "/bin/sh",
+            "shell": "@shell@",
             "key": " ",
             "text": "@GLF-path@/scripts/install_date.sh",
             "keyColor": "blue"
@@ -62,7 +62,7 @@
 
         {
             "type": "command",
-            "shell": "/bin/sh",
+            "shell": "@shell@",
             "key": "󰘤 ",
             "text": "@GLF-path@/scripts/challenge.sh",
             "keyColor": "yellow"
@@ -70,7 +70,7 @@
 
         {
             "type": "command",
-            "shell": "/bin/sh",
+            "shell": "@shell@",
             "key": "󰔵 ",
             "text": "@GLF-path@/scripts/completion.sh",
             "keyColor": "white"
