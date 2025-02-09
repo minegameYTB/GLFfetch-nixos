@@ -1,8 +1,8 @@
 #!/bin/bash
-file="@GLF-path@/GLFfetch/challenge.jsonc"
+file="@GLF-path@/challenge.jsonc"
 os=$(grep ^ID= /etc/os-release | cut -d "=" -f 2 | tr -d \")
-old_icon=$(grep key @GLF-path@/GLFfetch/challenge.jsonc | head -n 1 | cut -d ":" -f2 | tr -d \", | awk '{$1=$1};1')
-old_color=$(grep keyColor @GLF-path@/GLFfetch/challenge.jsonc | head -n 1 | cut -d ":" -f2 | tr -d \", | awk '{$1=$1};1')
+old_icon=$(grep key @GLF-path@/challenge.jsonc | head -n 1 | cut -d ":" -f2 | tr -d \", | awk '{$1=$1};1')
+old_color=$(grep keyColor @GLF-path@/challenge.jsonc | head -n 1 | cut -d ":" -f2 | tr -d \", | awk '{$1=$1};1')
 
 case "$os" in
   "arch")
