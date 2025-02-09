@@ -56,7 +56,7 @@
             "type": "command",
             "shell": "/bin/sh",
             "key": " ",
-            "text": "@GLF-path@/GLFfetch/scripts/install_date.sh",
+            "text": "@GLF-path@/scripts/install_date.sh",
             "keyColor": "blue"
         },      
 
@@ -64,7 +64,7 @@
             "type": "command",
             "shell": "/bin/sh",
             "key": "󰘤 ",
-            "text": "@GLF-path@/GLFfetch/scripts/challenge.sh",
+            "text": "@GLF-path@/scripts/challenge.sh",
             "keyColor": "yellow"
         },
 
@@ -72,7 +72,7 @@
             "type": "command",
             "shell": "/bin/sh",
             "key": "󰔵 ",
-            "text": "@GLF-path@/GLFfetch/scripts/completion.sh",
+            "text": "@GLF-path@/scripts/completion.sh",
             "keyColor": "white"
         },
 //        "break",
