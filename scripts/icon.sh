@@ -29,6 +29,9 @@ case "$os" in
   "gentoo")
     new_icon=""
     new_color="magenta" ;;
+  "nixos")
+    new_icon=""
+    new_color="bright_blue"
   *)
     new_icon="󰣇"
     new_color="bright_blue" ;;
