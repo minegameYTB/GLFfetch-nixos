@@ -29,6 +29,27 @@ Then, clone this repository in fastfetch configuration folder by running:
 rm -fr ~/.config/fastfetch/GLFfetch && git clone https://github.com/Gaming-Linux-FR/GLFfetch ~/.config/fastfetch/GLFfetch && chmod u+x ~/.config/fastfetch/GLFfetch/scripts/*.sh && ~/.config/fastfetch/GLFfetch/scripts/icon.sh
 ```
 
+If you use Nix (or NixOS) :
+(minegameYTB/nix-custom-repo is a third party repo)
+
+nix shell (flake) (temporary use)
+
+```bash
+nix shell github:minegameYTB/nix-custom-repo#GLFfetch
+```
+
+nix run (to use without use shell to launch manually)
+
+```bash
+nix run github:minegameYTB/nix-custom-repo#GLFfetch
+```
+
+or with nix profile install (to use like a normal package)
+
+```bash
+nix profile install github:minegameYTB/nix-custom-repo#GLFfetch
+```
+
 ### Launch GLFfetch
 ---
 
