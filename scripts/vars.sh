@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Thanks to https://github.com/fearside/ProgressBar
 function ProgressBar {
     let _progress=(${1}*100/${2}*100)/100
