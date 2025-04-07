@@ -30,7 +30,7 @@ rm -fr ~/.config/fastfetch/GLFfetch && git clone https://github.com/Gaming-Linux
 ```
 
 If you use Nix (or NixOS) :
-(minegameYTB/nix-custom-repo is a third party repo)
+(minegameYTB/nurpkgs-repo is a third party repo)
 
 nix shell (flake) (temporary use)
 
@@ -41,13 +41,13 @@ nix shell github:minegameYTB/nix-custom-repo#GLFfetch
 nix run (to use without use shell to launch manually)
 
 ```bash
-nix run github:minegameYTB/nix-custom-repo#GLFfetch
+nix run nur#repos.minegameYTB.GLFfetch
 ```
 
 or with nix profile install (to use like a normal package)
 
 ```bash
-nix profile install github:minegameYTB/nix-custom-repo#GLFfetch
+nix profile install nur#repos.minegameYTB.GLFfetch
 ```
 
 ### Launch GLFfetch
